@@ -17,7 +17,7 @@ To view this portfolio locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/maps-portfolio.git
+   git clone https://github.com/googlymap/maps-portfolio.git
 
 
 
