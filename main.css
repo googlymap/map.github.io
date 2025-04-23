@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar{
+    background-color: #1259c3;
+    padding: 1rem;
+  }
+  .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  .nav-link{
+    color: #fcfcfc;
+    justify-content: center;
+    text-decoration: none;
+  }
+/*#section1,#section2,#section3,#section4 h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-size: 2rem;
+    display: inline-block;
+    cursor: pointer;
+  }*/
+  .map-letters {
+    text-align: left; 
+    line-height: 2rem; 
+  }
+  
+  .big-letter {
+    font-size: 2.5rem; 
+    display: inline-block; 
+    margin-right: 5px; 
+  }
+
+  .icon {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+    display: inline-block; /* Ensures proper alignment */
+  }
+  #whoami {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Center the entire content horizontally */
+    gap: 20px; /* Add spacing between the text and the image */
+  }
+  
+  .photome {
+    width: 200px;
+    height: auto;
+    margin: 0; /* Remove any extra margins */
+  }
+  .photome:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .container-fluid {
+    height: 100vh; /* Make the container take the full height of the viewport */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center-align the text */
+  }
+  
+  .centered-text {
+    font-size: 2rem; /* Adjust the font size */
+    color: white; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    margin-top: 300px; /* Add some margin to the top */;
+  }
+  .centered-text:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .centered-text#aboutme:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin {
+    animation: spin 2s linear infinite; /* Spins continuously */
+  }

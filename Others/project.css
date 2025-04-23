@@ -1,0 +1,137 @@
+h1#h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-1 {
+  flex-basis: 43%;
+  flex-grow: 1;
+  background-image: url(headphones-in-pastel-pink-and-blue_1920x1080_xtrafondos.com.jpg); 
+  background-size: cover;
+  background-position: center;
+}
+.col-2 {
+  flex-basis: 57%;
+  flex-grow: 1;
+  padding: 40px 80px;
+  background-color: #3deec2; /* background-image: url(); */
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  
+}
+.nav {
+  overflow: hidden;
+  background-color: #e78585;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .topnav{
+  overflow: hidden;
+  background: transparent;
+}
+.logo {
+  width: 40px;
+  cursor: pointer;
+  background: transparent;
+  padding: 15px;
+  margin: 0;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.search {
+  width: 40px;
+  cursor: pointer;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.left-text h1{
+  font-size: 50px;
+  font-weight: 500;
+}
+.left-text p{
+  font-size: 20px;
+  line-height: 24px;
+  margin: 30px 0;
+}
+.left-text {
+  width: 70%;
+  margin: 180px auto 0;
+}
+ .left-text a img{
+  width: 60px;
+  margin-right: 20px;
+}
+.left-text a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 30px;
+}
+.btn {
+  border: 3px solid #e78585;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+.right-text {
+  margin-top: 160px;
+}
+.right-text h2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.right-text h3 {
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+}
+ .right-text p
+ {
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #555;
+}
+.right-text a {
+  text-decoration: none;
+  display: inline-block;
+  background: #ff9292;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 15px 50px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 600px) {  
+  .header .col-1 .nav .center a {
+    float: none;
+    width: 100%;
+}
+.header .col-1 .nav .center a { /* Updated selector */
+    background-color: #ddd;
+    color: black;
+}
+}
